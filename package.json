@@ -1,6 +1,7 @@
 {
   "name": "hw4-starter",
   "version": "0.1.0",
+  "homepage": "https://dwjustin.github.io/sp22-homework4-starter-{dwjustin}",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -15,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy":"gh-pages -b main -d build",
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
